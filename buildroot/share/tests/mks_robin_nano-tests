@@ -6,7 +6,7 @@
 # exit on first failure
 set -e
 
-use_example_configs Mks/Robin
+#use_example_configs Mks/Robin
 opt_set MOTHERBOARD BOARD_MKS_ROBIN_NANO
 exec_test $1 $2 "Default Configuration"
 
